@@ -76,7 +76,7 @@ function addGuess(u, c) {
         if (c[i] === u)
             ug[i] = u;
     }
-    console.log(ug);
+    
 }
 //function to print the values to the screen depending if the user win, lose or is his next turn
 function print(result, value) {
