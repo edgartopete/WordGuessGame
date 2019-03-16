@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Word Guess Game</h1>
+            <p class="lead">Guess the name of one of the Bootcamp members(Teacher, Teaches Assitent or Enrique)</p>
+            <hr class="my-4">
+            <p>Prees any alphabetic key to start</p>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5>Word to Guess</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><span id="userGuess"></span></li>
+                <li class="list-group-item">
+                    <h5>Wrong Guesses:<span id="wrongGuesses"></span></h5>
+                </li>
+                <li class="list-group-item">
+                    <h5>Guess Left:<span id="guessLeft"></span></h5>
+                </li>
+                <li class="list-group-item">
+                    <h5>Wins:<span id="win"></span></h5>
+                </li>
+                <li class="list-group-item">
+                    <h5>Losses:<span id="lose"></span></h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/main.js"></script>
+</html>
